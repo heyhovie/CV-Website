@@ -36,6 +36,7 @@ hr { color: #242230; padding: 0 50px; }
 .work-experience, .web-development{ margin: 50px 0;}
 .work-title{margin-bottom: 25px;}
 .info-container{margin-top:20px;}
+.downloadresume{margin: 20px auto 50px;}
 /* Projects________________________________________________________________________________________________________________________*/
 .colo{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888; width:300px;}
 .colo-vid{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888;}
