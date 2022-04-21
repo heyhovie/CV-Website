@@ -38,16 +38,16 @@ hr { color: #242230; padding: 0 50px; }
 .info-container{margin-top:20px;}
 .downloadresume{margin: 20px auto 50px;}
 /* Projects________________________________________________________________________________________________________________________*/
-.colo{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888; width:300px;}
-.colo-vid{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888;}
-.colo-pubs{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888; width: 200px;}
+.colo{width:300px;}
+/* .colo-vid{box-shadow: 0 5px 10px -3px #888888;} */
+.colo-pubs{width: 200px;}
 .film-description{font-size: 0.8rem; color: #666666;width:300px; margin:0 auto 30px;}
 .git-description{font-size: 0.8rem; color: #666666; margin:0 auto 30px;}
 .graphictext{margin:20px auto 30px;}
 .skillsbadge{border-radius:50%; width: 40px; margin-top: 10px;}
 .web-frames{margin: 0 5% 0 15%;}
 .web-development p{ margin-top: 10px;}
-.git-image{border-radius: 5px; box-shadow: 0 5px 10px -3px #888888; width:100px;margin: auto;}
+.git-image{width:100px;margin: auto;}
 
 
 /* Media QUery______________________________________________________________________________________________________________________*/
@@ -64,7 +64,7 @@ hr { color: #242230; padding: 0 50px; }
   .job-title {font-size: 1.2rem;}
   .web-frames{margin: 0;}
   .education{ margin: auto; width: 80%;}
-  .colo-pubs{border-radius: 20px; box-shadow: 0 5px 10px -3px #888888; width: 300px; margin: 20px auto 10px;}
+  .colo-pubs{width: 300px; margin: 20px auto 10px;}
 }
 @media (max-width: 1160px){.mysummary {margin: 25px 0 0;}}
 @media (max-width: 915px){.mysummary {margin: 15px 0 0;}}
