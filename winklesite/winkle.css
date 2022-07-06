@@ -74,6 +74,13 @@ ul{
 .project-banner-image{
   height: 200px;
   width: 200px;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+.project-banner-image:hover{
+  box-shadow: 0 0 0 3px #f9e0d9;
+  height: 205px;
+  width: 205px;
 }
 .project-synopsis{
   font-size: 0.9rem;
@@ -105,14 +112,12 @@ ul{
   font-family: 'IBM Plex Serif', serif;
   margin: auto 0 auto 20px;
   padding: 10px;
+  transition: 0.3s;
 }
 
 .sub-button:hover{
-  background-color: #fff;
-  border-style:solid;
-  border-width: thin;
+  background-color: #f9e0d9;
   color: #000;
-  padding: 9px;
 }
 
 /* footer */
