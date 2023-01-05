@@ -5,7 +5,7 @@ a {
     text-decoration: none; color: #242230;
 }
 p {
-    color: #242230; font-family: 'Courier Prime', monospace; margin-bottom: 0;
+    color: #242230; font-family: 'Courier Prime', monospace;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Public Sans', sans-serif;
@@ -25,11 +25,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     display: flex;
 }
-.heading-dark-big,.text-dark-medium{
-    margin: 5px;
-}
 .heading-dark-big{
     font-size: 20px;
+    margin: 5px;
 }
 .navigation-right button{
     background-color: #ffffff;
