@@ -21,6 +21,16 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     margin: 22px;
 }
+.navigation-left{
+    align-items: center;
+    display: flex;
+}
+.heading-dark-big,.text-dark-medium{
+    margin: 5px;
+}
+.heading-dark-big{
+    font-size: 20px;
+}
 .navigation-right button{
     background-color: #ffffff;
     border-color: #242230;
