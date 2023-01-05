@@ -1,0 +1,12 @@
+body {
+    background-color: #ffffff; text-align: center;
+}
+a {
+    text-decoration: none; color: #242230;
+}
+p {
+    color: #242230; font-family: 'Courier Prime', monospace; margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Public Sans', sans-serif;
+}
