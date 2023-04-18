@@ -1,84 +1,207 @@
-a { text-decoration: none; color: #242230; }
-body { background-color: #ffffff; text-align: center; }
-p { color: #242230; font-family: 'Courier Prime', monospace; margin-bottom: 0;}
-h1, h2, h3, h4, h5, h6 { font-family: 'Public Sans', sans-serif; }
-.container-fluid { background-color: #ffffff; }
+a {
+    text-decoration: none;
+    color: #242230;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+p {
+    color: #242230;
+    font-family: 'Courier Prime', monospace;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+}
 
 /* Navigation______________________________________________________________________________________________________________________*/
 /* .banner{top: 0; position: fixed;} */
-.navbar{ margin-top: 20px; }
-.navbar-brand { color: #242230;font-family: 'Public Sans', sans-serif ; font-weight: 800; margin-left: 50px; }
-.navbar-nav{ margin-right: 30px; }
-.smalltext { color: #242230; font-family: 'Courier Prime', monospace; font-size: 1rem; font-weight: normal; margin-left: 10px; }
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    color: #242230;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+
+.smalltext {
+    color: #242230;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 10px;
+}
 
 /* Contact__________________________________________________________________________________________________________________________*/
-hr { color: #242230; padding: 0 50px; }
-.copyright{ font-size: 0.75rem; margin: 50px auto 25px; }
-.footertab { margin: 50px auto 0; }
+hr {
+    color: #242230;
+    padding: 0 50px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    margin: 50px auto 25px;
+}
+
+.footertab {
+    margin: 50px auto 0;
+}
 
 /* Media QUery______________________________________________________________________________________________________________________*/
 @media (max-width:768px) {
-  .pic {text-align: center;}
-  .mysummary {margin: 30px 0 0; text-align: center;}
-  .info-left{ text-align: center; }
-  .info-left p{margin: 0 auto;}
-  .info-right{ text-align: center; }
-  .title{font-weight:bold; margin: 0 15% 20px; text-align:center;}
-  .subtitle{font-weight:bold; margin: 0 auto 20px; text-align:center;}
-  .resume-details p {font-size: 0.9rem;}
-  .resume-header{ text-align: center; font-family: 'Public Sans', sans-serif; font-size: 2rem; font-weight: 800; margin-left: 0;}
-  .job-title {font-size: 1.2rem;}
-  .web-frames{margin: 0;}
-  .education{ margin: auto; width: 80%;}
-  .colo-pubs{width: 300px; margin: 20px auto 10px;}
+    .pic {
+        text-align: center;
+    }
+
+    .mysummary {
+        margin: 30px 0 0;
+        text-align: center;
+    }
+
+    .info-left {
+        text-align: center;
+    }
+
+    .info-left p {
+        margin: 0 auto;
+    }
+
+    .info-right {
+        text-align: center;
+    }
+
+    .title {
+        font-weight: bold;
+        margin: 0 15% 20px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-weight: bold;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .resume-details p {
+        font-size: 0.9rem;
+    }
+
+    .resume-header {
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: 0;
+    }
+
+    .job-title {
+        font-size: 1.2rem;
+    }
+
+    .web-frames {
+        margin: 0;
+    }
+
+    .education {
+        margin: auto;
+        width: 80%;
+    }
+
+    .colo-pubs {
+        width: 300px;
+        margin: 20px auto 10px;
+    }
 }
-@media (max-width: 1160px){.mysummary {margin: 25px 0 0;}}
-@media (max-width: 915px){.mysummary {margin: 15px 0 0;}}
+
+@media (max-width: 1160px) {
+    .mysummary {
+        margin: 25px 0 0;
+    }
+}
+
+@media (max-width: 915px) {
+    .mysummary {
+        margin: 15px 0 0;
+    }
+}
 
 /* Interactive player________________________________________________________________________________________________________________ */
-.player-shell{
-  background-color: white;
-  border-color: #242230;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 2px;
-  height: 540px;
-  padding: 8px;
-  margin: 40px auto;
-  width: 820px;
+.player-shell {
+    background-color: white;
+    border-color: #242230;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    height: 540px;
+    padding: 8px;
+    margin: 40px auto;
+    width: 820px;
 }
-.player-screen{
-  align-content: center;
-  background-color: grey;
-  border-radius: 5px;
-  border-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  height: 450px;
-  justify-content: center;
-  width: 800px;
+
+.player-screen {
+    align-content: center;
+    background-color: grey;
+    border-radius: 5px;
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: center;
+    width: 800px;
 }
-.player-controls{
-  margin: 20px auto;
+
+.player-controls {
+    margin: 20px auto;
 }
-.player-controls button{
-  background-color:#242230;
-  border-radius: 5px;
-  border-style: none;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  height: 40px;
-  margin: auto 5px;
-  width: 60px;
-  transition: 0.2s;
+
+.player-controls button {
+    background-color: #242230;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    margin: auto 5px;
+    width: 60px;
+    transition: 0.2s;
 }
-.player-controls button:hover{
-  background-color: black;
+
+.player-controls button:hover {
+    background-color: black;
 }
-.player-start-panel{
+
+.player-start-panel {
     background-color: white;
     border-radius: 5px;
     border-style: none;
     padding: 20px;
     width: 400px;
+}
+
+.player-screen-content {
+    background-color: white;
+    display: none;
+    height: 430px;
+    transition: 0.4s;
+    width: 780px;
 }
