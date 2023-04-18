@@ -48,10 +48,14 @@ hr { color: #242230; padding: 0 50px; }
   width: 820px;
 }
 .player-screen{
+  align-content: center;
   background-color: grey;
   border-radius: 5px;
   border-style: none;
+  display: flex;
+  flex-wrap: wrap;
   height: 450px;
+  justify-content: center;
   width: 800px;
 }
 .player-controls{
@@ -70,4 +74,11 @@ hr { color: #242230; padding: 0 50px; }
 }
 .player-controls button:hover{
   background-color: black;
+}
+.player-start-panel{
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px;
+    width: 400px;
 }
