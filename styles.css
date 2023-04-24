@@ -34,7 +34,7 @@ hr { color: #242230; padding: 0 50px; }
 .info-right{ text-align: left; }
 .resume-download{ padding: 20px; }
 .work-experience, .web-development{ margin: 50px 0;}
-.work-title{margin-bottom: 25px;}
+.work-title{margin-bottom: 25px; cursor: pointer;}
 .info-container{margin-top:20px;}
 .downloadresume{margin: 20px auto 50px;}
 
@@ -49,11 +49,11 @@ hr { color: #242230; padding: 0 50px; }
 .web-frames{margin: 0 5% 0 15%;}
 .web-development p{ margin-top: 10px;}
 .git-image{width:100px;margin: auto;}
-.web-development{
+/* .web-development{
   height: 40px;
   overflow: hidden;
   transition: 3s;
-}
+} */
 
 
 /* Media QUery______________________________________________________________________________________________________________________*/
