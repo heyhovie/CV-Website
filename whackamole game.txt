@@ -1,0 +1,7 @@
+Make a game with 4 slots
+A mole pops out of each slot and lasts for 2 seconds
+Each time the user clicks on the slot with the mole the game launches another mole but the time will have reduced by 1 millisecond, user gets a points equal to the number of milliseconds left. The points are added to a score board). The score board will show the highest recorded score
+If the user runs out of time(if the mole retracts before being clicked), game over
+If the user clicks the wrong slot (slot without a mole), game over
+When the game is over, the score is added to a scores Array with only 2 slots for the previous score and the current score. The higher score is chosen and displayed on the “high score” spot.
+The user can refresh the game without refreshing the page. This will make sure the scores are not reset

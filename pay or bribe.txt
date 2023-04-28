@@ -1,0 +1,16 @@
+Roll dice
+Get a question or requirement
+- If you meet requirement, proceed
+    - Sometimes when you meet requirements you have option to purchase an asset at a discounted price
+    - Assets grow your net worth and it affects your ability to bribe, be let off offences, popularity
+- If you don’t, get penalised or bribe
+    - Depending on your popularity, the bribe could either work or fail
+    - Your popularity grows by doing other random tasks like:
+        - donating money when you land on less fortunate squares
+        - Funding city projects by selling assets
+        - Missing a turn to volunteer for community service
+- Offences
+    - You can commit an offence if you pass a square with slow regulations at a speed higher than or equal to a 5 on the dice
+    - If you pass a square with fast moving regulations at a speed slower than or equal to a 2 on the dice
+
+Goal is to reach the end of the line and retire in good health and good wealth
