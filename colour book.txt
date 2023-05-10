@@ -1,0 +1,2 @@
+Put media query so that it only works when on ipad or desktop
+If on mobile, display a message that the user should access it via a device with a larger screen for best experience
