@@ -7,50 +7,88 @@
 
     <style>
         body{
-            font-family: sans-serif;
-        }
-        div, button, section{
-            border-style: solid;
-            border-width: 1px;
-        }
-        .namecard,.qualifications{
+            background-color:#fafafa;
+
+            font-family:'Courier New', Courier, monospace;
             display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        .photo, .details div{
-            text-align: center;
+        .photo {
+            margin: 1rem auto;
+            width: 30%;
         }
         .photo img{
             border-radius: 100%;
             border-style: none;
-            margin: 1rem;
-            width: 30%;
+            width: 100%;
         }
         .details{
-            
-        }
-        .details p{
-            margin: 1rem auto;
-            width: 80%;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            max-width: 80%;
         }
         .resume{
             text-align: center;
         }
         button{
+            background-color: #4848ec;
             border-radius: 0.5rem;
+            border-style: none;
+            color: white;
             padding: 1rem;
             margin: 1rem 2rem;
+            transition: 0.3s;
         }
-
-        .qualifications{
-            /* justify-content: space-between; */
+        button:hover{
+            background-color: #100e34;
+            cursor: pointer;
         }
-        .qualifications div, .skills p{
+        .button-box{
+            text-align: center;
+        }
+        .portfolio-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2rem auto;
+            width: 80%;
+        }
+        .portfolio{
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 8px 16px rgb(224, 224, 224);
+            margin: 1rem auto 2rem;
+            width: 40rem;
+        }
+        .portfolio h2{
             margin: 1rem 2rem;
+        }
+        .portfolio button{
+            width: 20rem
+        }
+        .qualifications{
+            margin: 0 2rem;
+        }
+        .qualifications div, .skills{
+            margin: 0 2rem;
+        }
+        .namecard{
+            align-items: center;
         }
 
         @media screen and (max-width: 800px) {
-            .namecard{
-                display: block;
+            .photo, .details div{
+                text-align: center;
+            }
+            .photo{
+                width: 40%;
+            }
+            .details p{
+                margin: 1rem auto;
+                width: 80%;
             }
         }
     </style>
@@ -71,49 +109,100 @@
             <button>Academic Record</button>
         </div>
     </section>
-    <section class="portfolio frontend">
-        <div class="labels">
-            <h2>Front End Development</h2>
-            <div class="qualifications">
-                <div>
-                    <p>Qualificaiton</p>
+    <section class="portfolio-container">
+        <div class="portfolio frontend">
+            <div class="labels">
+                <h2>Front End Development</h2>
+                <div class="qualifications">
+                    <h3>Qualificaiton</h3>
+                    <p>The 2023 web dvelopment bootcamp - London App Brewery</p>
                 </div>
-                <div>
-                    <p>The 2023 web dvelopment bootcamp</p>
-                </div>
-                <div>
-                    <p>London App Brewery</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
                 </div>
             </div>
-            <div class="skills">
-                <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+            <div class="button-box">
+                <button>view projects</button>
             </div>
         </div>
-        <div>
-            <button>view projects</button>
+        <div class="portfolio iOS">
+            <div class="labels">
+                <h2>iOS Development</h2>
+                <div class="qualifications">
+                    <h3>Qualificaiton</h3>
+                    <p>The 2023 web dvelopment bootcamp - London App Brewery</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <button>view projects</button>
+            </div>
+        </div>
+        <div class="portfolio data">
+            <div class="labels">
+                <h2>eLearning Development</h2>
+                <div class="qualifications">
+                    <h3>Qualificaiton</h3>
+                    <p>The 2023 web dvelopment bootcamp - London App Brewery</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <button>view projects</button>
+            </div>
+        </div>
+        <div class="portfolio software">
+            <div class="labels">
+                <h2>Software Development</h2>
+                <div class="qualifications">
+                    <h3>Qualificaiton</h3>
+                    <p>The 2023 web dvelopment bootcamp - London App Brewery</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <button>view projects</button>
+            </div>
+        </div>
+        <div class="portfolio multimedia">
+            <div class="labels">
+                <h2>Multimedia Production</h2>
+                <div class="qualifications">
+                    <h3>Qualificaiton</h3>
+                    <p>The 2023 web dvelopment bootcamp - London App Brewery</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <button>view projects</button>
+            </div>
         </div>
     </section>
-    <section class="portfolio iOS">
-
-    </section>
-    <section class="portfolio data">
-
-    </section>
-    <section class="portfolio software">
-
-    </section>
-    <section class="portfolio multimedia">
-
-    </section>
+    
     <footer>
         <div class="contact">
-
+            <a href="">call/whatsapp</a>
+            <a href="">email</a>
         </div>
         <div class="socials">
-
+            <a href="">linkedin</a>
+            <a href="">github</a>
         </div>
         <div class="copyright">
-
+            <p>Copyright 2023, Takunda Hove</p>
         </div>
     </footer>
 </body>
