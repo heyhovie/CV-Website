@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        div, button, section{
+            border-style: solid;
+            border-width: 1px;
+        }
+        .namecard,.qualifications{
+            display: flex;
+        }
+        .photo, .details div{
+            text-align: center;
+        }
+        .photo img{
+            border-radius: 100%;
+            border-style: none;
+            margin: 1rem;
+            width: 30%;
+        }
+        .details{
+            
+        }
+        .details p{
+            margin: 1rem auto;
+            width: 80%;
+        }
+        .resume{
+            text-align: center;
+        }
+        button{
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin: 1rem 2rem;
+        }
+
+        .qualifications{
+            /* justify-content: space-between; */
+        }
+        .qualifications div, .skills p{
+            margin: 1rem 2rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            .namecard{
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
     <section class="profile">
         <div class="namecard">
             <div class="photo">
-
+                <img src="images/profilephoto.png" alt="">
             </div>
             <div class="details">
-                <h2>Takunda Hove</h2>
-                <p>Film/multimedia graduate with 2 years of JavaScript development experience. Certified in iOS, web, and Python development, eager to leverage diverse skillset in a creative and technical environment.</p>
+                <div><h2>Takunda Hove</h2></div>
+                <div><p>Film/multimedia graduate with 2 years of JavaScript development experience. Certified in iOS, web, and Python development, eager to leverage diverse skillset in a creative and technical environment.</p></div>
             </div>
         </div>
         <div class="resume">
@@ -23,17 +73,23 @@
     </section>
     <section class="portfolio frontend">
         <div class="labels">
-            <h2></h2>
+            <h2>Front End Development</h2>
             <div class="qualifications">
-                <p>Qualificaiton</p>
+                <div>
+                    <p>Qualificaiton</p>
+                </div>
                 <div>
                     <p>The 2023 web dvelopment bootcamp</p>
+                </div>
+                <div>
                     <p>London App Brewery</p>
                 </div>
             </div>
             <div class="skills">
-                <p></p>
+                <p>HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
             </div>
+        </div>
+        <div>
             <button>view projects</button>
         </div>
     </section>
