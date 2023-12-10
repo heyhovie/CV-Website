@@ -66,7 +66,9 @@
             height: 0.5px;
             margin: 0;
         }
-        
+        h3{
+            margin: 0;
+        }
         .intro h1{
             font-size: 2.25rem;
             margin:0;
@@ -86,6 +88,31 @@
         }
         .projects h2{
             font-size: 1.5rem;
+        }
+        .portfolio{
+            column-gap: 0.75rem;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 0.75rem;
+        }
+        .portfolio .item{
+            border-radius: 1rem;
+            border-style: solid;
+            border-width: 0.25px;
+            display: inline-block;
+            height: 11.125rem;
+            padding: 1.5rem;
+            min-width: 26rem;
+        }
+        .item-title{
+            align-items: center;
+            display: flex;
+            font-size: 1rem;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .item img{
+            height: 1.5rem;
         }
     </style>
 </head>
@@ -117,11 +144,27 @@
             <a href="https://www.twitter.com/heyhovie"><img src="images/twitterlight.svg" alt=""></a>
             <a href="#whatsapp"><img src="images/whatsapplight.svg" alt=""></a>
             <a href="#linkedin"></a>
+            <a href="#github"></a>
         </div>
         <div class="projects">
             <h2>Projects</h2>
-            <div>
-                
+            <div class="portfolio">
+                <div class="item">
+                    <div class="item-title">
+                        <a href="">
+                            <h3>full-stack-development</h3>
+                        </a>
+                        <a href="">
+                            <img src="images/arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+
+                </div>
+                <div class="item">
+
+                </div>
             </div>
         </div>
     </section>
