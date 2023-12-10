@@ -6,6 +6,9 @@
     <title>Heyyy</title>
 
     <style>
+        :root{
+            
+        }
         a{
             text-decoration: none;
         }
@@ -58,7 +61,7 @@
         }
         header li:hover{
             /* background-color: green; */
-            box-shadow: 0 1px green;
+            box-shadow: 0 0.125rem rgb(0, 0, 0);
         }
         hr{
             background-color: grey;
@@ -93,16 +96,21 @@
             column-gap: 0.75rem;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-between;
             row-gap: 0.75rem;
+            width: 100%;
         }
         .portfolio .item{
             border-radius: 1rem;
             border-style: solid;
             border-width: 0.25px;
             display: inline-block;
-            height: 11.125rem;
+            height: 10rem;
             padding: 1.5rem;
-            min-width: 26rem;
+            width: 28%;
+        }
+        .item a{
+            color: black;
         }
         .item-title{
             align-items: center;
@@ -113,6 +121,27 @@
         }
         .item img{
             height: 1.5rem;
+            transition: 0.3s;
+        }
+        .item img:hover{
+            scale: 1.1;
+        }
+
+        /* tablet */
+        @media screen and (min-width: 48.0625rem) and (max-width: 74rem) {
+            .portfolio{
+                justify-content: space-between;
+            }
+            .portfolio .item {
+                width: 41%;
+            }
+        }
+
+        /* mobile */
+        @media screen and (max-width: 48rem) {
+            .portfolio .item {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -158,12 +187,37 @@
                             <img src="images/arrow.svg" alt="">
                         </a>
                     </div>
+                    <p></p>
                 </div>
                 <div class="item">
-
+                    <div class="item-title">
+                        <a href="">
+                            <h3>ios-development</h3>
+                        </a>
+                        <a href="">
+                            <img src="images/arrow.svg" alt="">
+                        </a>
+                    </div>
                 </div>
                 <div class="item">
-
+                    <div class="item-title">
+                        <a href="">
+                            <h3>e-learning-development</h3>
+                        </a>
+                        <a href="">
+                            <img src="images/arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <a href="">
+                            <h3>multimedia-design</h3>
+                        </a>
+                        <a href="">
+                            <img src="images/arrow.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
