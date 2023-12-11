@@ -6,13 +6,29 @@
     <title>Heyyy</title>
 
     <style>
+        @font-face {
+            font-family: regular;
+            src: url(fonts/Obviously-Regular.otf);
+        }
+        @font-face {
+            font-family: medium;
+            src: url(fonts/Obviously-Medium.otf);
+        }
+        @font-face {
+            font-family: semibold;
+            src: url(fonts/Obviously-Semibold.otf);
+        }
+        @font-face {
+            font-family: bold;
+            src: url(fonts/Obviously-Bold.otf);
+        }
         a{
             text-decoration: none;
         }
         body{
             background-color: rgb(255, 255, 255);
             color: rgb(0, 0, 0);
-            font-family: 'Courier New', Courier, monospace;
+            font-family: regular;
             text-align: center;
             margin: 0;
         }
@@ -24,7 +40,12 @@
         .content{
             padding: 1rem 1.5rem;
         }
-        
+        h3,h4,h5{
+            font-family: medium;
+        }
+        h1,h2{
+            font-family: medium;
+        }
         header{
             display: flex;
             font-size: 1rem;
