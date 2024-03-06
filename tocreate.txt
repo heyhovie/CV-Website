@@ -1,0 +1,6 @@
+IDEA 1 - ANIMAL SOUNDS
+- animals on screen and when child clicks animal it plays the animal sound
+
+IDEA 2 - COLORING BOOK
+- select color from palette and apply to shape that you click. export colored image to pdf
+
