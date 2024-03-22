@@ -1,0 +1,15 @@
+.graphic-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.graphic-item{
+    margin: 2rem;
+    width: 16rem;
+}
+.graphic-item img{
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 0.25px;
+    width: 100%;
+}
