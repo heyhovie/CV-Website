@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .graphic-item{
-    margin: 2rem;
-    width: 16rem;
+    margin: 1.5vw;
+    width: 20vw;
 }
 .graphic-item img{
     border-radius: 1rem;
